@@ -1,0 +1,18 @@
+{
+  "name": "simple-file-server",
+  "version": "0.0.0",
+  "description": "Node js simple json file server",
+  "main": "main.js",
+  "scripts": {
+    "init": "node main.js"
+  },
+  "dependencies": {
+    "file-system": "^2.2.2"
+  },
+  "engines": {
+    "node": "9.3.0"
+  },
+  "devDependencies": {},
+  "author": "Aaron Jones",
+  "license": "MIT"
+}
