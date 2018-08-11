@@ -25,7 +25,8 @@ const requestHandler = (request, response) => {
 			response.end(JSON.stringify(res));
 			}).catch('some error here');
 		} else if (request.url.includes('.json')) {
-			const promise = serverfs.parseFile(request.url).then(res => {
+			let name = decodeURI(request.url);
+			const promise = serverfs.parseFile(name).then(res => {
 				const character = JSON.parse(res);
 				console.log(JSON.stringify(character));
 				response.writeHead(200, cors);

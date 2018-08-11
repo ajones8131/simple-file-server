@@ -220,9 +220,7 @@
       "_baseStat": "_cha"
     }
   },
-  "_items": [
-    null
-  ],
+  "_items": [],
   "_defense": {
     "_armorClass": 15,
     "_maximumHitPoints": 30,

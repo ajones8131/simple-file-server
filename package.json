@@ -4,7 +4,8 @@
   "description": "Node js simple json file server",
   "main": "main.js",
   "scripts": {
-    "init": "node main.js"
+    "init": "node main.js",
+    "serve": "lt --port 3000 --subdomain dnd-lit-af-420-blazeit"
   },
   "dependencies": {
     "file-system": "^2.2.2"
@@ -12,7 +13,9 @@
   "engines": {
     "node": "9.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "localtunnel": "^1.9.0"
+  },
   "author": "Aaron Jones",
   "license": "MIT"
 }

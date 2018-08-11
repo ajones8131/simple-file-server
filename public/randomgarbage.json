@@ -1,0 +1,93 @@
+{
+    "_content": "RESOURCE",
+    "_type": "CLA",
+    "_status": {
+        "success": true,
+        "message": null,
+        "code": null
+    },
+    "_embedded": {
+        "relationspecs": {
+            "_content": "COLLECTION",
+            "_type": "COLLECTION",
+            "_status": null,
+            "_embedded": null,
+            "_items": [
+                {
+                    "_content": "RESOURCE",
+                    "_type": "RSP",
+                    "_status": null,
+                    "_embedded": {
+                        "validclasses": {
+                            "_content": "COLLECTION",
+                            "_type": "COLLECTION",
+                            "_status": null,
+                            "_embedded": null,
+                            "_items": [{
+                                "_content": "RESOURCE",
+                                "_type": "CLA",
+                                "_status": {
+                                    "success": true,
+                                    "message": null,
+                                    "code": null
+                                },
+                                "_embedded": null,
+                                "_lockContext": null,
+                                "_spacename": "TestNamespace",
+                                "_name": "ClassTwo",
+                                "_lockComment": null,
+                                "_modifiedBy": "admin",
+                                "_qualifiedName": "TestNamespace.ClassTwo.1",
+                                "_createdBy": "admin",
+                                "_isLockedByUser": false,
+                                "_recVersion": 0,
+                                "_isAbstract": false,
+                                "_created": "1532454832313",
+                                "_ancestorReference": null,
+                                "_versionStatus": "COMMITTED",
+                                "_id": "CLA-86a5fb6f-8f6a-11e8-8345-0242ac12000e",
+                                "_isLocked": false,
+                                "_modified": "1532454832313",
+                                "_versionNumber": 1,
+                                "_lockUsername": null
+                            }]
+                        }
+                    },
+                    "_cardinality": "ONE",
+                    "_name": "RelatesTo",
+                    "_modifiedBy": "admin",
+                    "_validClazzReferences": [],
+                    "_createdBy": "admin",
+                    "_modelReference": null,
+                    "_recVersion": 0,
+                    "_valueOccurrenceQuantity": null,
+                    "_created": "1532546396910",
+                    "_valueOccurrenceOriginReference": null,
+                    "_isreadonly": false,
+                    "_id": "RSP-b766b14d-903f-11e8-8974-0242ac12000e",
+                    "_cascadeModelLocks": false,
+                    "_modified": "1532546396910"
+                }
+            ],
+            "_count": 1
+        }
+    },
+    "_lockContext": null,
+    "_spacename": "TestNamespace",
+    "_name": "ClassOne",
+    "_lockComment": null,
+    "_modifiedBy": "admin",
+    "_qualifiedName": "TestNamespace.ClassOne.2",
+    "_createdBy": "admin",
+    "_isLockedByUser": false,
+    "_recVersion": 0,
+    "_isAbstract": false,
+    "_created": "1532546396910",
+    "_ancestorReference": null,
+    "_versionStatus": "COMMITTED",
+    "_id": "CLA-b766b14c-903f-11e8-8974-0242ac12000e",
+    "_isLocked": false,
+    "_modified": "1532546396910",
+    "_versionNumber": 2,
+    "_lockUsername": null
+}
