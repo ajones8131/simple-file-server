@@ -14,7 +14,8 @@
     "node": "9.3.0"
   },
   "devDependencies": {
-    "localtunnel": "^1.9.0"
+    "localtunnel": "^1.9.0",
+    "debug": "^3.1.0"
   },
   "author": "Aaron Jones",
   "license": "MIT"
